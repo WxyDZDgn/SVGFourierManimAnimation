@@ -1,11 +1,14 @@
 通过读取 SVG 的路径拟合傅里叶级数利用 Manim 生成绘制该路径的动画
 
+请使用 `Python 3.11` 及以上的版本；
+请参考[此处](https://docs.manim.org.cn/getting_started/installation.html#python-manimgl)安装 `Manim` 环境步骤。
+
 生成步骤：
 1. 将**含有** SVG 路径的文件放入 `res` 文件夹；
 2. 打开根目录下 `animation.py` 文件，修改创建 `SVG` 对象的参数为对应的文件；
 3. 在根目录下使用 `manimgl .\animation.py RotatingVectors -owl` 生成动画并完成后自动打开。
 
-前提得有环境，请参考[此处](https://docs.manim.org.cn/getting_started/installation.html#python-manimgl)安装步骤，具体运行细节请自行调整。
+具体运行细节请自行调整。
 
 注：若 `SVG` 文件中没有路径和`d`属性，不可转换。
 
